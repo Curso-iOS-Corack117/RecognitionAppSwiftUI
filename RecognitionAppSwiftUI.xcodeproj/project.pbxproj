@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31DD6FE2975205400C68FB3 /* ImageAnalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DD6FD2975205400C68FB3 /* ImageAnalizer.swift */; };
 		B35A7ADF297519480088A8DD /* RecognitionAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A7ADE297519480088A8DD /* RecognitionAppSwiftUIApp.swift */; };
 		B35A7AE1297519480088A8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A7AE0297519480088A8DD /* ContentView.swift */; };
 		B35A7AE3297519480088A8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A7AE2297519480088A8DD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31DD6FD2975205400C68FB3 /* ImageAnalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalizer.swift; sourceTree = "<group>"; };
 		B35A7ADB297519480088A8DD /* RecognitionAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecognitionAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A7ADE297519480088A8DD /* RecognitionAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		B35A7AE0297519480088A8DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B31DD6FC2975204B00C68FB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B31DD6FD2975205400C68FB3 /* ImageAnalizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B35A7AD2297519480088A8DD = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		B35A7ADD297519480088A8DD /* RecognitionAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B31DD6FC2975204B00C68FB3 /* Models */,
 				B35A7ADE297519480088A8DD /* RecognitionAppSwiftUIApp.swift */,
 				B35A7AE0297519480088A8DD /* ContentView.swift */,
 				B35A7AE2297519480088A8DD /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31DD6FE2975205400C68FB3 /* ImageAnalizer.swift in Sources */,
 				B35A7AE1297519480088A8DD /* ContentView.swift in Sources */,
 				B35A7ADF297519480088A8DD /* RecognitionAppSwiftUIApp.swift in Sources */,
 			);
