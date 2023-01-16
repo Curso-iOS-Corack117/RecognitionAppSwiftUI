@@ -12,6 +12,7 @@
 		B35A7AE1297519480088A8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A7AE0297519480088A8DD /* ContentView.swift */; };
 		B35A7AE3297519480088A8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A7AE2297519480088A8DD /* Assets.xcassets */; };
 		B35A7AE6297519480088A8DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A7AE5297519480088A8DD /* Preview Assets.xcassets */; };
+		B3EE6EC82975B0030004B1D6 /* ImageRecognitionModelMaker.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3EE6EC72975B0030004B1D6 /* ImageRecognitionModelMaker.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B35A7AE0297519480088A8DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B35A7AE2297519480088A8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35A7AE5297519480088A8DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3EE6EC72975B0030004B1D6 /* ImageRecognitionModelMaker.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageRecognitionModelMaker.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		B35A7ADD297519480088A8DD /* RecognitionAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B3EE6EC72975B0030004B1D6 /* ImageRecognitionModelMaker.mlmodel */,
 				B31DD6FC2975204B00C68FB3 /* Models */,
 				B35A7ADE297519480088A8DD /* RecognitionAppSwiftUIApp.swift */,
 				B35A7AE0297519480088A8DD /* ContentView.swift */,
@@ -151,6 +154,7 @@
 				B31DD6FE2975205400C68FB3 /* ImageAnalizer.swift in Sources */,
 				B35A7AE1297519480088A8DD /* ContentView.swift in Sources */,
 				B35A7ADF297519480088A8DD /* RecognitionAppSwiftUIApp.swift in Sources */,
+				B3EE6EC82975B0030004B1D6 /* ImageRecognitionModelMaker.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				DEVELOPMENT_TEAM = DTR7V322S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita acceso a tu camara para analizar los objetos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +316,7 @@
 				DEVELOPMENT_TEAM = DTR7V322S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita acceso a tu camara para analizar los objetos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
